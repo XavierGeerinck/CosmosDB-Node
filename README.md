@@ -14,7 +14,7 @@ const primaryKey = '<yourPrimaryKey>';
 const API = require('./CosmosDB')(accountName, primaryKey);
 
 // An example API call
-let database = await CosmosDBAPI.database.createIfNotExists(databaseName);
+let database = await API.database.createIfNotExists(databaseName);
 ```
 
 For more calls, see below or on: https://docs.microsoft.com/en-us/rest/api/documentdb/
