@@ -1,6 +1,6 @@
 {
   "name": "cosmosdb",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "The Node API for interacting with the CosmosDB REST API",
   "main": "index.js",
   "scripts": {
@@ -9,9 +9,6 @@
   "author": "Xavier Geerinck",
   "license": "MIT",
   "dependencies": {
-    "documentdb": "^1.14.2",
-    "node-fetch": "^2.1.1",
-    "protobufjs": "^6.8.6",
-    "request": "^2.85.0"
+    "node-fetch": "^2.1.1"
   }
 }
