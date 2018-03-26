@@ -1,3 +1,4 @@
+# Note: This is a community created library and is not officially supported by the CosmosDB team.
 # CosmosDB API
 ## Getting started
 To get started and use this API, you first have to create a CosmosDB account in the Azure portal. Once this is done, just copy this example to get started:
