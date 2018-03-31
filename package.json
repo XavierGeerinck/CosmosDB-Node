@@ -1,5 +1,5 @@
 {
-  "name": "cosmosdb",
+  "name": "cosmosdb-node",
   "version": "1.0.3",
   "description": "The Node API for interacting with the CosmosDB REST API",
   "main": "index.js",
