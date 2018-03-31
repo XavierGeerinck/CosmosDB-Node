@@ -191,6 +191,17 @@ No response will be returned if successful, only an error will be thrown if prob
 ##### Response
 No response will be returned if successful, only an error will be thrown if problems arise.
 
+#### api.collection.truncate(dbName, collectionName)
+Truncates the collection.
+
+> Note: This will delete and recreate the collection, so the ID will change
+
+##### NodeJS Call
+`await api.collection.truncate(<dbName>, <collectionName>)`
+
+##### Response
+No response will be returned if successful, only an error will be thrown if problems arise.
+
 
 ### Document
 #### api.document.get(dbName, collectionName, documentId)
